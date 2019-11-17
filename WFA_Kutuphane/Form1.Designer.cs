@@ -286,9 +286,9 @@
             this.lstKitaplar.ItemHeight = 20;
             this.lstKitaplar.Location = new System.Drawing.Point(6, 34);
             this.lstKitaplar.Name = "lstKitaplar";
-            this.lstKitaplar.SelectionMode = System.Windows.Forms.SelectionMode.MultiSimple;
             this.lstKitaplar.Size = new System.Drawing.Size(295, 284);
-            this.lstKitaplar.TabIndex = 1;
+            this.lstKitaplar.TabIndex = 20;
+            this.lstKitaplar.DoubleClick += new System.EventHandler(this.tsmDuzenle_Click);
             // 
             // txtKitapAdi
             // 

@@ -140,7 +140,7 @@ namespace WFA_Kutuphane
                 return;
             }
 
-            ktp = (Kutuphane)lstKitaplar.SelectedItems;
+            ktp = (Kutuphane)lstKitaplar.SelectedItem;
             txtISBNNo.Text = ktp.ISBN;
             txtKitapAdi.Text = ktp.KitapAdi;
             txtYayinEvi.Text = ktp.YayinEvi;
@@ -150,7 +150,7 @@ namespace WFA_Kutuphane
             nmrBaskiSayisi.Text = ktp.BaskiSayisi;
             dtBasimYili.Text = ktp.BasimYili;
 
-            index = lstKitaplar.SelectedItems;
+            index = lstKitaplar.SelectedIndex;
         }
 
         private void tsmSil_Click(object sender, EventArgs e)
